@@ -8,7 +8,6 @@
 ## 🌐 Live Links
 
 - 🚀 **Frontend:** [[https://your-frontend-link.com](https://your-frontend-link.com)](https://glistening-melomakarona-e8bb27.netlify.app/)
-- 🔗 **Backend (Render):** [[https://your-backend-link.onrender.com](https://your-backend-link.onrender.com)](https://blood-donating-website.onrender.com/donations)
 
 ---
 
