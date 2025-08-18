@@ -30,7 +30,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="relative bg-gradient-to-tr from-red-600 via-red-500 to-red-400 text-white">
+    <footer className="relative bg-gradient-to-tr mt-10 from-red-600 via-red-500 to-red-400 text-white">
       <div className="max-w-7xl mx-auto px-6 md:px-10 py-16 md:py-24">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-10">
           {/* Branding */}
@@ -139,7 +139,7 @@ const Footer = () => {
       {/* Back to top button */}
       <button
         onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-        className={`fixed right-6 bottom-6 z-50 p-3 rounded-full bg-gradient-to-tr from-red-500 to-red-600 text-white shadow-2xl transition-transform ${
+        className={`fixed right-6 bottom-6 z-50 p-5 rounded-full bg-gradient-to-tr from-red-500 to-red-600 text-white shadow-2xl transition-transform ${
           showTop ? "translate-y-0 opacity-100" : "translate-y-6 opacity-0 pointer-events-none"
         }`}
         aria-label="Back to top"
