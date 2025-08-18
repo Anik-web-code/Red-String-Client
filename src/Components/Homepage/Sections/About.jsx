@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+motion;
 
 const About = () => {
   return (

@@ -11,6 +11,7 @@ import DonationImpact from "./Sections/DonationImpact";
 import Testimonials from "./Sections/Testimonials";
 import BlogPreview from "./Sections/BlogPreview";
 
+
 const HomePage = () => {
   const { user } = useContext(AuthContext);
   const [loading, setLoading] = useState(true);
@@ -57,6 +58,7 @@ const HomePage = () => {
       <DonationImpact></DonationImpact>
       <Testimonials></Testimonials>
       <BlogPreview></BlogPreview>
+
       <About></About>
       <ContactUs></ContactUs>
     </div>
