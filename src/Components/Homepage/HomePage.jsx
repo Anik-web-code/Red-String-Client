@@ -9,6 +9,7 @@ import MissionVision from "./Sections/MissionVision";
 import HowItWorks from "./Sections/HowItWorks";
 import DonationImpact from "./Sections/DonationImpact";
 import Testimonials from "./Sections/Testimonials";
+import BlogPreview from "./Sections/BlogPreview";
 
 const HomePage = () => {
   const { user } = useContext(AuthContext);
@@ -50,13 +51,13 @@ const HomePage = () => {
   return (
     <div>
       <Hero></Hero>
+      <MissionVision></MissionVision>
       <HowItWorks></HowItWorks>
       <Volunteer></Volunteer>
       <DonationImpact></DonationImpact>
       <Testimonials></Testimonials>
+      <BlogPreview></BlogPreview>
       <About></About>
-      <MissionVision></MissionVision>
-
       <ContactUs></ContactUs>
     </div>
   );
