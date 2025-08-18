@@ -1,7 +1,8 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router";
-import { Loader } from "../../Loader/Loader";
+import Loader from "../../Loader/Loader";
+
 
 const RequestDetails = () => {
   const { id } = useParams();

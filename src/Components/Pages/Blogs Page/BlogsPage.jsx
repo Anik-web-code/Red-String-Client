@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { Link } from "react-router";
-import { Loader } from "../../Loader/Loader";
+import Loader from "../../Loader/Loader";
+
 
 const BlogsPage = () => {
   const [blogs, setBlogs] = useState([]);

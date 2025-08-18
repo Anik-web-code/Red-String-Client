@@ -1,7 +1,8 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import RequestCard from "./RequestCard";
-import { Loader } from "../../Loader/Loader";
+import Loader from "../../Loader/Loader";
+
 
 const AllRequestsPage = () => {
   const [donationRequests, setDonationRequests] = useState([]);
@@ -21,7 +22,7 @@ const AllRequestsPage = () => {
   }, []);
 
   if (loading) {
-    return <Loader />;
+    return <Loader/>;
   }
 
   if (donationRequests.length === 0) {

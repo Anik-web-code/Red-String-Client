@@ -2,7 +2,9 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 
 import { toast } from "react-hot-toast";
-import { Loader } from "../Loader/Loader";
+import Loader from "../Loader/Loader";
+
+
 
 const AdminDashboardHome = () => {
   const [stats, setStats] = useState(null);
@@ -16,7 +18,7 @@ const AdminDashboardHome = () => {
       .finally(() => setLoading(false));
   }, []);
 
-  if (loading) return <Loader />;
+  if (loading) return <Loader></Loader>;
 
   return (
     <div className="space-y-6">
