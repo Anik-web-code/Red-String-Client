@@ -1,4 +1,3 @@
-// src/components/ui/loader.tsx
 export function Loader() {
   return (
     <div className="flex justify-center items-center">
