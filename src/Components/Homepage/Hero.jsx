@@ -5,10 +5,10 @@ const Hero = () => {
   return (
     <div className="mb-20 mt-10">
       <div
-        className="bg-cover rounded-[16px] bg-center mx-auto h-[500px] w-[95%] lg:h-[600px] md:w-[90%] lg:w-[80%] md:h-screen flex-shrink-0 p-7"
+        className="bg-cover rounded-[16px] bg-center mx-auto  w-[95%] md:w-[90%] lg:w-[80%] md:h-screen flex-shrink-0 p-7"
         style={{
           backgroundImage:
-            'url("https://i.postimg.cc/zv2M2KvB/hands-of-the-giver-and-the-recipient-to-donate-blood-blood-donation-concept-heart-medical-sign-give.jpg")',
+            'url("https://i.postimg.cc/BZ5w8WC6/pexels-pranidchakan-boonrom-101111-1350560.jpg")',
         }}
       >
         <h1 className="text-[40px] sm:text-[56px] md:text-[80px] text-[#ff0033] font-medium mb-8">

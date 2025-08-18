@@ -5,6 +5,7 @@ import ContactUs from "./ContactUs";
 import { AuthContext } from "../Context/AuthContext";
 import axios from "axios";
 import About from "./Sections/About";
+import MissionVision from "./Sections/MissionVision";
 
 const HomePage = () => {
   const { user } = useContext(AuthContext);
@@ -48,6 +49,7 @@ const HomePage = () => {
       <Hero></Hero>
       <Volunteer></Volunteer>
       <About></About>
+      <MissionVision></MissionVision>
       <ContactUs></ContactUs>
     </div>
   );
